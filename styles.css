@@ -1,0 +1,78 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.header {
+  overflow: hidden;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  min-height: 100vh;
+}
+.strong {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 3%;
+}
+.hold {
+  top: 35%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  margin: auto;
+  text-align: center;
+}
+h1 {
+  text-align: center;
+}
+.hold p {
+  text-align: center;
+  padding: 5px;
+  color: #777;
+}
+.hold img {
+  border-radius: 10px 10px 0 0;
+}
+.sshh {
+  display: flex;
+  text-align: center;
+  justify-content: space-between;
+  padding-top: 3%;
+  border: 1px solid #000;
+  background-color: hsl(224, 50%, 98%);
+  margin-top: 3%;
+  border: none;
+  border-radius: 20px;
+}
+.sshh:hover {
+  box-shadow: 25px 20px 20px 20px rgba(0, 0, 0, 0.2);
+}
+.sshh img {
+  padding: 0;
+}
+.dam {
+  background-color: hsl(245, 75%, 52%);
+  display: inline-block;
+  margin: auto;
+  text-align: center;
+  top: 75%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  color: #fff;
+  width: 20%;
+  padding: 10px 30px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.awoo {
+  top: 83%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  color: #777;
+  cursor: pointer;
+}
+.dam:hover {
+  box-shadow: 10px 10px 20px 30px rgba(0, 0, 0, 0.2);
+}
